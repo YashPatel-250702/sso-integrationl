@@ -10,7 +10,7 @@ const localLogout = () => {
 };
 
 const handleCourseClick = (id: number): void => {
-   window.open(`http://13.233.130.50/bitlabs/courseview.php?id=${id}`,'_blank');
+   window.open(`http://13.233.130.50/bitlabs/course/view.php?id=${id}`,'_blank');
 }
   return (
     <div>
