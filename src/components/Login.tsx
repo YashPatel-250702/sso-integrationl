@@ -15,12 +15,6 @@ export default function Login() {
     navigate("/register");
   };
 
-
-  
-
-
-
-
   const handleFormChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
